@@ -1,0 +1,34 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header{
+    width: 100%;
+    height: 50px;
+background-color: #000;
+color: #fff;
+position: fixed;   /*posición fija*/
+top: 0;
+left: 0;
+z-index: 100; /*se sobrepone sobre cualquier otro elemento*/
+
+}
+.contenedor {
+    width: 98%; 
+ margin: auto;
+ }
+ /*posicionamos el menú en la misma línea */
+ h1 {
+    float: left;/*se desplaza hacia la izquierda*/
+ }
+ /*actúa como contenedor de tabla*/
+ header .contenedor{
+    display: table;
+ }
+section{
+   width: 100%; 
+}

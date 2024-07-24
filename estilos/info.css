@@ -1,0 +1,24 @@
+/*color de fondo y letra*/
+#info{
+   background-color: #000; 
+   color: #fff ;
+text-align: center;
+padding: 20px;
+}
+
+/*Colocar img en una tabla centrada */
+#info .contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+/*estilo circular a las ima*/
+.info-imagen img{
+width: 180px;
+height: 180px;
+box-shadow: 10px  5px 5px  #fff ;   /*añade efecto de sombra alrededor del elemento*/
+/*redondea las esquinas del border*/
+border-radius: 50%;
+border: 7px solid #fff;
+}
